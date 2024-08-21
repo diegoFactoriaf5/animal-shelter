@@ -1,0 +1,30 @@
+CardBody {
+    height: 7.5vh;
+}
+
+.CardImg {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: 55px;
+}
+
+#BusImg {
+    width: 140px;
+    height: 140px;
+}
+
+#SchoolImg {
+    width: 200px;
+    height: 160px;
+}
+
+#SchoolMaterialImg {
+    width: 100px;
+    height: 160px;
+}
+
+#HelpUsImg {
+    width: 165px;
+    height: 140px;
+}

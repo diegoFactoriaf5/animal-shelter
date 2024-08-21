@@ -1,0 +1,27 @@
+#btn-back-to-top {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #51C8FC;
+	border-radius: 50px;
+	font-size: 50px;
+	position: fixed;
+	bottom: 70px;
+	right: 20px;
+	transition: all 300ms ease 0ms;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+}
+
+#btn-back-to-top:hover {
+	color: #FFDD59;
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-7px);
+}
+
+@media only screen and (max-width: 600px) {
+	#btn-back-to-top {
+		font-size: 30px;
+		bottom: 40px;
+		right: 10px;
+	}
+}
